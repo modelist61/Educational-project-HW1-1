@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Fsk-4g-rgT">
-                                <rect key="frame" x="20" y="59" width="374" height="803"/>
+                                <rect key="frame" x="20" y="59" width="374" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLT-Vb-FZF">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="394"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="386.5"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWF-HU-dMd">
-                                        <rect key="frame" x="0.0" y="409" width="374" height="394"/>
+                                        <rect key="frame" x="0.0" y="401.5" width="374" height="386.5"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                     </view>
                                 </subviews>
@@ -33,7 +33,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
-                            <constraint firstItem="Fsk-4g-rgT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2bH-Jq-ClX"/>
+                            <constraint firstItem="Fsk-4g-rgT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-15" id="2bH-Jq-ClX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fsk-4g-rgT" secondAttribute="trailing" constant="20" id="HQD-CM-dFW"/>
                             <constraint firstItem="Fsk-4g-rgT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I77-P3-1Bm"/>
                             <constraint firstItem="Fsk-4g-rgT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="veE-j9-Uvb"/>
